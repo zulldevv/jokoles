@@ -1,0 +1,27 @@
+:root {
+  /* -------- PRIMARY ------- */
+
+  --primary: #ff90bc;
+  --primary-rgb: 255, 144, 188;
+  --primary-hover: #ff75ac;
+  --primary-border: #ff75ac;
+  --primary-active: #ff63a2;
+
+  /* -------- SECONDARY ------- */
+
+  --secondary: #8acdd7;
+  --secondary-rgb: 138, 205, 215;
+  --secondary-hover: #73c9d6;
+  --secondary-border: #65c3d1;
+  --secondary-active: #5fc6d6;
+  
+  /* -------- TERTIARY ------- */
+  --tertiary: #FFC0D9;
+  
+  /* -------- LIGHT ------- */
+  --light: #F9F9E0;
+
+  /* -------- DARK ------- */
+  --dark: #232323;
+
+}
