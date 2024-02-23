@@ -1,7 +1,8 @@
 :root {
   /* -------- PRIMARY ------- */
 
-  --primary: #ff90bc;
+  --primary: #FFCA0F;
+  --primary: #FFCA0F;
   --primary-rgb: 255, 144, 188;
   --primary-hover: #ff75ac;
   --primary-border: #ff75ac;
@@ -19,9 +20,11 @@
   --tertiary: #FFC0D9;
   
   /* -------- LIGHT ------- */
-  --light: #F9F9E0;
+  --light: #f1f1f1;
 
   /* -------- DARK ------- */
   --dark: #232323;
-
+  
+  /* -------- TRANSITION ------- */
+  --transition: all .25s linear;
 }
