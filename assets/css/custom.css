@@ -2,28 +2,10 @@
   /* -------- PRIMARY ------- */
 
   --primary: #FFCA0F;
-  --primary: #FFCA0F;
-  --primary-rgb: 255, 144, 188;
-  --primary-hover: #ff75ac;
-  --primary-border: #ff75ac;
-  --primary-active: #ff63a2;
-
-  /* -------- SECONDARY ------- */
-
-  --secondary: #8acdd7;
-  --secondary-rgb: 138, 205, 215;
-  --secondary-hover: #73c9d6;
-  --secondary-border: #65c3d1;
-  --secondary-active: #5fc6d6;
-  
-  /* -------- TERTIARY ------- */
-  --tertiary: #FFC0D9;
-  
-  /* -------- LIGHT ------- */
-  --light: #f1f1f1;
-
-  /* -------- DARK ------- */
-  --dark: #232323;
+  --primary-rgb: 255, 202, 15;
+  --primary-hover: #f0bf0f;
+  --primary-border: #f0bf0f;
+  --primary-active: #e6b70f;
   
   /* -------- TRANSITION ------- */
   --transition: all .25s linear;
