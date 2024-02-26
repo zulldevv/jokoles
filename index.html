@@ -16,19 +16,20 @@
 </head>
 
 <body class="overflow-x-auto">
+  <div class="loader"><span></span></div>
   <!-- NAVBAR -->
   <div class="nav-"></div>
   <!-- NAVBAR END -->
   <!-- HERO BANNER -->
   <!-- DESKTOP -->
   <section class="vh-100 d-none d-md-block">
-    <div id="" class="carousel slide vh-100 position-absolute" data-bs-ride="carousel">
+    <div id="carousel" class="carousel slide vh-100 position-absolute" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="assets/img/landing-page_1.png" class="d-block w-100" alt="...">
           <div class="carousel-caption-landing-banner d-none d-md-block text-light">
             <h1 style="font-size: 4rem;">Service Mobil <br> Mainan Terbagus</h1>
-            <p class="fs-4">Bowo Bengkel adalah usaha yang bergerak di bidang pelayanan jasa servis mobil mainan.</p>
+            <p class="fs-4">Bowo Bengkel adalah usaha yang bergerak di bidang <br>pelayanan jasa servis mobil mainan.</p>
             <a href="catalog" class="btn btn-primary fs-4">Shop now</a>
           </div>
         </div>
@@ -36,7 +37,7 @@
           <img src="assets/img/landing-page_1.png" class="d-block w-100" alt="...">
           <div class="carousel-caption-landing-banner d-none d-md-block text-light">
             <h1 style="font-size: 4rem;">Service Mobil <br> Mainan Terbagus</h1>
-            <p class="fs-4">Bowo Bengkel adalah usaha yang bergerak di bidang pelayanan jasa servis mobil mainan.</p>
+            <p class="fs-4">Bowo Bengkel adalah usaha yang bergerak di bidang<br> pelayanan jasa servis mobil mainan.</p>
             <a href="catalog" class="btn btn-primary fs-4">Shop now</a>
           </div>
         </div>
@@ -44,19 +45,34 @@
           <img src="assets/img/landing-page_1.png" class="d-block w-100" alt="...">
           <div class="carousel-caption-landing-banner d-none d-md-block text-light">
             <h1 style="font-size: 4rem;">Service Mobil <br> Mainan Terbagus</h1>
-            <p class="fs-4">Bowo Bengkel adalah usaha yang bergerak di bidang pelayanan jasa servis mobil mainan.</p>
-            <a href="catalog" class="btn btn-primary fs-4">Shop now</a>
+            <p class="fs-4">Bowo Bengkel adalah usaha yang bergerak di bidang<br> pelayanan jasa servis mobil mainan.</p>
+            <a href="catalog" class="btn btn-primary fs-4">Shop Now</a>
           </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
 
   </section>
   <!-- MOBILE -->
+  <section class="vh-100 d-flex d-md-none" style="background: center / cover no-repeat url(assets/img/landing-page_1.png);">
+    <div class="container text-light m-auto">
+      <h1 style="font-size: 2.5em;">Service Mobil <br> Mainan Terbagus</h1>
+      <p class="fs-4">Bowo Bengkel adalah usaha yang bergerak di bidang pelayanan jasa servis mobil mainan.</p>
+      <a href="catalog" class="btn btn-primary fs-4">Shop Now</a>
+    </div>
+  </section>
   <!-- HERO BANNER END-->
 
   <!-- FITUR -->
-  <section class="container my-5 ">
+  <section class="container my-5">
     <div class=" text-center mx-5 pt-xxl-5">
       <h1 class="fw-bold">Fitur Produk</h1>
       <p class="fs-4">Fitur bowo bengkel resmi diluncurkan oleh PT Bowo Motors. Fitur ini merupakan pembaruan dari Bowo
@@ -79,6 +95,7 @@
         <h2 class="mt-3">Modif</h2>
         <p> Bowo bengkel juga bersedia untuk memodif mobil mobilan seperti borup, repaint body DLL </p>
       </div>
+
     </div>
   </section>
 
@@ -94,7 +111,7 @@
           <h2 class="mt-3">Tentang Produk</h2>
           <p class="opacity-50">tentang produk produk di bowo bengkel </p>
           <div class="mt-3">
-            <p class="fa-xl"><i class="fa-solid fa-check text-success me-2"></i> Ban Accelera</p>
+            <p class="fa-xl"><i class="fa-solid fa-check text-success me-2"></i>Ban Accelera</p>
             <p class="fa-xl"><i class="fa-solid fa-check text-success me-2"></i>Aksesori RCB</p>
             <p class="fa-xl"><i class="fa-solid fa-check text-success me-2"></i>Knalpot DPJ</p>
             <p class="fa-xl"><i class="fa-solid fa-check text-success me-2"></i>Velg VND</p>
@@ -109,11 +126,11 @@
   <!-- TENTANG END-->
   <!-- FOOTER -->
   <div class="footer- bg-secondary">
-
   </div>
   <!-- FOOTER END-->
   <script src="assets/components/navbar.js"></script>
   <script src="assets/components/footer.js"></script>
+  <script src="assets/js/base.js"></script>
   <script src="https://izzulaverroes.github.io/ave/avecdn.js"></script>
 </body>
 
