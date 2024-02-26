@@ -48,5 +48,11 @@
 }
 
 .nav-active {
-	border-bottom: 4px white solid;
+	border-bottom: none;
+}
+
+@media screen and (min-width:768px){
+	.nav-active {
+		border-bottom: 4px white solid;
+	}
 }
