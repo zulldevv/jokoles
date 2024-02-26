@@ -7980,6 +7980,14 @@ fieldset:disabled .btn {
   color: #fff;
   text-align: center;
 }
+.carousel-caption-landing-banner {
+  position: absolute;
+  right: 10%;
+  bottom: 50%;
+  transform: translateY(50%);
+  left: 10%;
+  text-align: left;
+}
 
 .carousel-dark .carousel-control-next-icon,
 .carousel-dark .carousel-control-prev-icon {
