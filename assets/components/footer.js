@@ -4,7 +4,7 @@ if (V == "Bowo Bengkel") {
   catalog = "catalog";
   contact = "contact";
   icon = "assets/img/icon.png";
-} else if (V == "Bowo Bengkel | About") {
+} else if (V == "Bowo Bengkel | About Us") {
   home = "../";
   about = "#";
   catalog = "../catalog";

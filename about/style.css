@@ -5,11 +5,7 @@
     background-position: center;
 }
 
-.teks {
-    color: white;
-}
-
-.teks h1 {
-    font-size: 6rem;
+body {
+    overflow-x: hidden;
 }
 
