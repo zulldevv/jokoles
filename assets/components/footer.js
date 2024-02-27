@@ -1,23 +1,27 @@
 if (V == "Bowo Bengkel") {
-    home = "#";
-    about = "about";
-    catalog = "catalog";
-    contact = "contact";
+  home = "#";
+  about = "about";
+  catalog = "catalog";
+  contact = "contact";
+  icon = "assets/img/icon.png";
 } else if (V == "Bowo Bengkel | About") {
-    home = "../";
-    about = "#";
-    catalog = "../catalog";
-    contact = "../contact";
+  home = "../";
+  about = "#";
+  catalog = "../catalog";
+  contact = "../contact";
+  icon = "../assets/img/icon.png";
 } else if (V == "Bowo Bengkel | Catalog") {
-    home = "../";
-    about = "../about";
-    catalog = "#";
-    contact = "../contact";
+  home = "../";
+  about = "../about";
+  catalog = "#";
+  contact = "../contact";
+  icon = "../assets/img/icon.png";
 } else if (V == "Bowo Bengkel | Contact Us") {
-    home = "../";
-    about = "../about";
-    catalog = "../catalog";
-    contact = "#";
+  home = "../";
+  about = "../about";
+  catalog = "../catalog";
+  contact = "#";
+  icon = "../assets/img/icon.png";
 }
 
 const footerBox = document.querySelector(".footer-");
@@ -27,7 +31,7 @@ footer.innerHTML = `
 <div class="row p-5">
     <div class="col-12 col-lg-4 text-light">
     <div class="d-flex gap-2 ">
-        <img src="assets/img/icon.png" alt="" style="width: 130px;">
+        <img src="${icon}" alt="" style="width: 130px;">
         <h2 class="my-auto fw-bold">Bowo <br>Bengkel</h2>
     </div>
     <div class="mt-3 text-light">
