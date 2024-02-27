@@ -1,33 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/custom.css" />
-    <!-- CSS CDN -->
-    <!-- <link
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/css/custom.css" />
+  <!-- CSS CDN -->
+  <!-- <link
       rel="stylesheet"
       href="https://izzulaverroes.github.io/ave/avecdn.css"
     /> -->
-    <!-- CDN LOCAL STYLE -->
-    <link rel="stylesheet" href="../assets/css/ave.css">
-    <!-- BASE STYLE -->
-    <link rel="stylesheet" href="../assets/css/base.css" />
-    <!-- TITLE -->
-    <title>Bowo Bengkel</title>
-  </head>
-  <body>
-    <!-- NAVBAR -->
-    <nav>
-      
-    </nav>
-    <!-- NAVBAR END-->
-    <!-- HERO BANNER -->
-    <section>
-      
-    </section>
-    <!-- HERO BANNER END-->
-    <!-- JS CDN -->
-    <script src="https://izzulaverroes.github.io/ave/avecdn.js"></script>
-  </body>
+  <!-- CDN LOCAL STYLE -->
+  <link rel="stylesheet" href="../assets/css/ave.css">
+  <!-- BASE STYLE -->
+  <link rel="stylesheet" href="../assets/css/base.css" />
+  <!-- TITLE -->
+  <title>Bowo Bengkel | Catalog</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+  <!-- LOADER -->
+  <div class="loader"></div>
+  <!-- LOADER END-->
+  <!-- NAVBAR -->
+  <div class="nav-"></div>
+  <!-- NAVBAR END-->
+  <!-- HERO BANNER -->
+  <section class="vh-100 d-flex"
+    style="background: linear-gradient(0deg, rgba(199, 158, 12, 0.3) 0%, rgba(199, 158, 12, 0.3) 100%), center / cover no-repeat url(../assets/img/catalog_banner.png);">
+    <div class="m-auto text-center text-light">
+      <h1 style="font-size: 4rem; font-weight: bold;">Layanan Kami</h1>
+      <p>Kami Menyediakan Layanan Terbaik Untuk
+        Anda</p>
+    </div>
+  </section>
+  <!-- HERO BANNER END-->
+  <!-- LAYANAN -->
+  <section class="bg-primary text-center text-light py-5">
+    <h1 style="font-size: 4rem;">Layanan Kami</h1>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="../assets/img/layanan_1.png" alt="" class="w-50">
+          <h1>SERVICE<br>BAN</h1>
+          <a href="#" class="btn btn-light">Lihat</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="../assets/img/layanan_2.png" alt="" class="w-50">
+          <h1>SERVICE<br>MESIN</h1>
+          <a href="#" class="btn btn-light">Lihat</a>
+        </div>
+        <div class="swiper-slide">
+          <img src="../assets/img/layanan_3.png" alt="" class="w-50">
+          <h1>SERVICE <br>WARNA</h1>
+          <a href="#" class="btn btn-light">Lihat</a>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <!-- <div class="swiper-pagination"></div> -->
+    </div>
+  </section>
+  <!-- LAYANAN END-->
+  <!-- PAKET -->
+  <section class=" text-center  py-5 mt-5">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="bg-secondary rounded-5 mx-5 py-5">
+            <img src="../assets/img/paket_1.png" alt="" class="w-50">
+          </div>
+          <h1 class="mt-3 text-secondary">PAKET <br>LUAR</h1>
+          <a href="#" class="btn btn-primary">Lihat</a>
+        </div>
+        <div class="swiper-slide">
+          <div class="bg-secondary rounded-5 mx-5 py-5">
+            <img src="../assets/img/paket_2.png" alt="" class="w-50">
+          </div>
+          <h1 class="mt-3 text-secondary">PAKET <br>DALAM</h1>
+          <a href="#" class="btn btn-primary">Lihat</a>
+        </div>
+        <div class="swiper-slide">
+          <div class="bg-secondary rounded-5 mx-5 py-5">
+            <img src="../assets/img/paket_3.png" alt="" class="w-50">
+          </div>
+          <h1 class="mt-3 text-secondary">PAKET <br>LUAR DALAM</h1>
+          <a href="#" class="btn btn-primary">Lihat</a>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+  <!-- PAKET END-->
+  <div class="footer- bg-secondary"></div>
+  <!-- JS CDN -->
+  <script src="https://izzulaverroes.github.io/ave/avecdn.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="../assets/components/navbar.js"></script>
+  <script src="../assets/components/footer.js"></script>
+  <script src="../assets/js/base.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        1100: {
+          slidesPerView: 2,
+          spaceBetween: 40,
+        },
+        1120: {
+          slidesPerView: 3,
+          spaceBetween: 50,
+        },
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+
 </html
