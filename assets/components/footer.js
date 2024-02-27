@@ -30,10 +30,10 @@ footer.classList.add("container");
 footer.innerHTML = `
 <div class="row p-5">
     <div class="col-12 col-lg-4 text-light">
-    <div class="d-flex gap-2 ">
+    <a href="${home}" class="d-flex gap-2 ">
         <img src="${icon}" alt="" style="width: 130px;">
-        <h2 class="my-auto fw-bold">Bowo <br>Bengkel</h2>
-    </div>
+        <h2 class="my-auto fw-bold text-light">Bowo <br>Bengkel</h2>
+    </a>
     <div class="mt-3 text-light">
         <p>Bowo Bengkel adalah usaha yang bergerak di bidang pelayanan jasa servis mobil mainan. </p>
     </div>

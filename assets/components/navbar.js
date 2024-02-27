@@ -29,9 +29,9 @@ if (V == "Bowo Bengkel") {
 const navbarBox = document.querySelector(".nav-");
 let navbar = document.createElement("header");
 navbar.classList.add("fixed-top");
-navbar.innerHTML = `<nav class="navbar navbar-expand-lg position-fixed w-100 shadow-sm bg-primary fixed-top my-0 py-0 text-light" >
+navbar.innerHTML = `<nav class="navbar navbar-expand-lg position-fixed w-100 shadow-sm bg-primary fixed-top my-0 py-2 py-lg-0 text-light" >
 <div class="container-md px-4 my-0 py-0">
-    <a class="navbar-brand d-flex" href="#home"><img src="${icon}" alt="" class="w-25"><h2 class="text-white my-auto ms-3">Bowo Bengkel</h2></a>
+    <a class="navbar-brand d-flex" href="${home}"><img src="${icon}" alt="" class="w-25"><h2 class="text-white my-auto ms-3 d-none d-lg-inline">Bowo Bengkel</h2></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
         aria-controls="offcanvasRight" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
