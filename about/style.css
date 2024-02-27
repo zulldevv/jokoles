@@ -1,0 +1,15 @@
+.hero-banner {
+    background-image: url(../assets/img/hero-banner-about.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.teks {
+    color: white;
+}
+
+.teks h1 {
+    font-size: 6rem;
+}
+
