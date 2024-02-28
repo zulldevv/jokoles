@@ -1,34 +1,8 @@
-if (V == "Bowo Bengkel") {
-  home = "#";
-  about = "about";
-  catalog = "catalog";
-  contact = "contact";
-  icon = "assets/img/icon.png";
-} else if (V == "Bowo Bengkel | About Us") {
-  home = "../";
-  about = "#";
-  catalog = "../catalog";
-  contact = "../contact";
-  icon = "../assets/img/icon.png";
-} else if (V == "Bowo Bengkel | Catalog") {
-  home = "../";
-  about = "../about";
-  catalog = "#";
-  contact = "../contact";
-  icon = "../assets/img/icon.png";
-} else if (V == "Bowo Bengkel | Contact Us") {
-  home = "../";
-  about = "../about";
-  catalog = "../catalog";
-  contact = "#";
-  icon = "../assets/img/icon.png";
-}
-
 const footerBox = document.querySelector(".footer-");
 let footer = document.createElement("div");
 footer.classList.add("container");
 footer.innerHTML = `
-<div class="row p-5">
+<div class="row px-5 pt-5 pb-2">
     <div class="col-12 col-lg-4 text-light">
     <a href="${home}" class="d-flex gap-2 ">
         <img src="${icon}" alt="" style="width: 130px;">
@@ -63,5 +37,7 @@ footer.innerHTML = `
         <a href="${contact}" class="text-light">Kontak Kami</a>
     </div>
     </div>
+    <hr class="text-light mt-3">
+    <p class="text-light text-center">Developed by El Development</p>
 </div>`;
 footerBox.appendChild(footer);

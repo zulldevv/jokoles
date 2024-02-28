@@ -39,7 +39,7 @@ navbar.innerHTML = `<nav class="navbar navbar-expand-lg position-fixed w-100 sha
     <div class="offcanvas offcanvas-end my-0 py-0 bg-primary" id="offcanvasRight">
         <div class="offcanvas-header p-4 text-light">
             <h2>Bowo Bengkel</h2>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button type="button" class="btn-close text-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="link ms-lg-auto me-4 me-lg-0 text-end text-light">
             <ul class="n navbar-nav gap-md-3 gap-sm-3 gap-3" style="z-index: 10000;">
