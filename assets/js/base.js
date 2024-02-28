@@ -23,8 +23,3 @@ function setActiveLink() {
 }
 
 setActiveLink();
-// // Call the function on page load to set the initial active link
-// document.addEventListener('DOMContentLoaded', setActiveLink);
-
-// // Update the active link when the document title changes
-// document.addEventListener('DOMSubtreeModified', setActiveLink);
